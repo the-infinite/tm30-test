@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/onboarding_prompt"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_above="@id/login_button"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/register_button"
+        android:layout_marginBottom="20dp"
+        android:text="@string/log_in"
+        android:paddingVertical="10dp"
+        android:background="@drawable/stadium_button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:paddingVertical="10dp"
+        android:text="@string/register"
+        android:background="@drawable/stadium_button_alt"
+        android:textAllCaps="false"
+        android:textColor="#2603D3"/>
+</RelativeLayout>
