@@ -6,7 +6,7 @@
             <stroke
                 android:width="2dp"
                 android:color="#008000" /> <!-- Darker blue perimeter for pressed state -->
-            <corners android:radius="16dp" /> <!-- Adjust radius for desired roundness -->
+            <corners android:radius="10dp" /> <!-- Adjust radius for desired roundness -->
         </shape>
     </item>
 
@@ -16,7 +16,7 @@
             <stroke
                 android:width="2dp"
                 android:color="#ECEFF3" /> <!-- Blue perimeter -->
-            <corners android:radius="16dp" /> <!-- Adjust radius for desired roundness -->
+            <corners android:radius="10dp" /> <!-- Adjust radius for desired roundness -->
         </shape>
     </item>
 </selector>

@@ -1,7 +1,20 @@
 <resources>
-    <string name="app_name">Tm30 Assessment</string>
+    <string name="app_name">TM30 Assessment</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="onboarding_prompt">Let\'s fix some cars.\nConnect with car drivers</string>
     <string name="register">Sign up</string>
     <string name="log_in">Log in</string>
+    <string name="hint_firstname">Enter firstname</string>
+    <string name="label_firstname">Firstname</string>
+    <string name="label_lastname">Lastname</string>
+    <string name="hint_lastname">Enter lastname</string>
+    <string name="label_email">Email</string>
+    <string name="hint_email">Enter email address</string>
+    <string name="label_phone">Phone number</string>
+    <string name="hint_phone">9069350833</string>
+    <string name="label_city">City</string>
+    <string name="accept_terms_and_privacy">"By registering you accept our Terms and Conditions, and Privacy Policy on this platform."</string>
+    <string name="verify_account">Verify Account</string>
+    <string name="have_account">Already have an account? Sign in</string>
+    <string name="step_1_of_3">Step 1 of 3</string>
 </resources>

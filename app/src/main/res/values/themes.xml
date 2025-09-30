@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.Tm30Assessment" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:colorPrimary">#2603D3</item>
+        <item name="colorAccent">#008000</item>
+        <item name="checkboxStyle">@style/Theme.Tm30Assessment.CheckBox</item>
+    </style>
 
-    <style name="Theme.Tm30Assessment" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Tm30Assessment.CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:fillColor">#008000</item>
+    </style>
 </resources>

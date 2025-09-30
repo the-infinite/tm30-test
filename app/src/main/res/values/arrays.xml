@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_codes">
+        <item>234</item>
+        <item>233</item>
+    </string-array>
+
+    <string-array name="cites">
+        <item>Lagos</item>
+        <item>Kenya</item>
+    </string-array>
+</resources>
